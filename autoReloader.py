@@ -56,7 +56,7 @@ shell = win32com.client.Dispatch("Wscript.shell")
 
 webbrowser.open(path,new=0)
 
-print("WatchDog started on file", path)
+print("autoReloader started on file", path)
 while True:
     time.sleep(1)
     newTime = os.path.getmtime(path)
