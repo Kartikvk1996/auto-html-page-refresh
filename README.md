@@ -1,4 +1,4 @@
-# autoHTMLReloader
+# auto html page refresh
 A python script which refresh files opened in chrome browser automatically on modifications done in editors.specially useful for web developers where modifications are done to web page continuously while building ,this script takes overhead of frequently refreshing the tab by doing it automatically.
 
 
